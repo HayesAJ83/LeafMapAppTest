@@ -7,7 +7,6 @@ from apps import (
     customize,
     demo,
     tile_layer,
-    timelapse,
     uber_nyc,
     vector,
 )
@@ -18,7 +17,6 @@ from apps import (
 apps = MultiApp()
 
 # Add all your application here
-apps.add_app("Timelapse", timelapse.app)
 apps.add_app("Home", home.app)
 apps.add_app("Create an interactive map", backends.app)
 apps.add_app("Customize the default map", customize.app)
